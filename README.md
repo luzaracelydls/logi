@@ -17,7 +17,7 @@ Habilitar flujo de login con Firebase
 1. Ve a [https://console.firebase.google.com/](https://console.firebase.google.com/)
 2. Haz clic en **"Agregar proyecto"** y sigue los pasos del asistente.
 3. Una vez creado el proyecto, haz clic en el ícono **web** (`</>`) para registrar tu app.
-4. Asigna un nombre a la app (por ejemplo `react-camara`) y haz clic en **"Registrar app"**.
+4. Asigna un nombre a la app (por ejemplo `react-login`) y haz clic en **"Registrar app"**.
 5. Firebase te mostrará un objeto `firebaseConfig` con los valores de configuración. Guárdalos; los necesitarás en el Paso 3.
 
 ---
@@ -96,7 +96,7 @@ onAuthStateChanged (Firebase escucha el estado)
 ## Estructura del proyecto
 
 ```
-react-camara/
+react-login/
 ├── App.js                       ← Raíz: gestiona el estado de autenticación
 ├── app.json                     ← Configuración Expo (permisos, etc.)
 ├── package.json
